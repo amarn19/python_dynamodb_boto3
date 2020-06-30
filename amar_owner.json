@@ -1,0 +1,55 @@
+{
+    "user_id": {
+        "S": "peter"
+    },
+    "password": {
+        "S": "peter123"
+    },
+    "type": {
+        "N": 1
+    },
+    "user_type": {
+        "S": "shop_owner"
+    },
+    "shop_details": {
+       
+            "shopid": {
+                "S": "chi002"
+            },
+            "shop_location": {
+                "S": "chicago downtown"
+            },
+            "shop_size": {
+                "S": "50000sqft"
+            },
+            "shop_staff_count": {
+                "N": 20
+            },
+            "shop_website": {
+                "S": "na"
+            },
+            "shop_phoneno": {
+                "N": 315527778
+            }
+        
+    },
+    "user_details": {
+        
+            "S": {"owner_name": {
+                "S": "peter das"
+            }},
+            "owner_dob": {
+                "S": "19-Jun-94"
+            },
+            "owner_address": {
+                "S": "loomis chicago"
+            },
+            "owner_phoneno": {
+                "N": 2137869534
+            },
+            "owner_email": {
+                "S": "peter@gmail.com"
+            }
+        }
+    
+}
